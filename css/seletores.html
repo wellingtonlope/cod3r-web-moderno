@@ -6,7 +6,26 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-      /* ... */
+      /* * - universal */
+      /* .tag - classe */
+      /* #aprovados - id */
+      /* #aninhado > div - filho direto */
+      /* #aninhado section - qualquer descendente */
+      /* p + ul - um está logo em seguida do outro */
+      /* p ~ ol - estejam dentro da mesma tag(irmãos) */
+      /* [feira] - propriedade */
+      /* [feira=casa] - propriedade com valor */
+      /* [feira~=escritorio] - propriedade com mais de um valor */
+      /* [feira*=sa] - vê se está contido o valor sa */
+      /* span:nth-child(1) - primeiro filho */
+      /* section > :nth-child(odd) - todos os filhos impares */
+      /* section > :nth-child(even) - todos os filhos pares */
+      /* p, span - aplicar o css para mais de um elemento */
+      /* section > span:nth-of-type(2) - o segundo elemento do tipo span */
+      * {
+        color: #ff0;
+        background-color: #f77;
+      }
     </style>
   </head>
 
